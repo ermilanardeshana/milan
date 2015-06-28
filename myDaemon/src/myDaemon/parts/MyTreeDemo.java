@@ -80,8 +80,9 @@ class TreeContentProvider implements ITreeContentProvider{
 
 	@Override
 	public boolean hasChildren(Object element) {
-		// TODO Auto-generated method stub
-		return false;
+		if(element.toString().equals("milan"))
+			return true;
+			return false;
 	}
 	
 }
